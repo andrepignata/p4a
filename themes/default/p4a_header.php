@@ -42,7 +42,7 @@ echo $_xml_header ?><!DOCTYPE html>
 <?php foreach (P4A::singleton()->getJavascript() as $_k=>$_v): ?>
 <script type="text/javascript" src="<?php echo $_k ?>"></script>
 <?php endforeach; ?>
-
+<script type="text/javascript" src="/p4a/themes/shrec/jquery/js/jquery-ui-1.10.3.custom.js"></script>
 <?php echo P4A::singleton()->getJavascriptInitializations() ?>
 </head>
 
